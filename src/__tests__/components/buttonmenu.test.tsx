@@ -7,7 +7,7 @@ const handleClick = jest.fn();
 
 it("renders correctly", () => {
   const { asFragment } = renderWithTheme(
-    <ButtonMenu activeIndex={0} onItemClick={handleClick}>
+    <ButtonMenu activeIndex={0} onClick={handleClick}>
       <ButtonMenuItem>Item 1</ButtonMenuItem>
       <ButtonMenuItem>Item 2</ButtonMenuItem>
     </ButtonMenu>
@@ -18,14 +18,14 @@ it("renders correctly", () => {
         class="sc-bdfBwQ ixBoaC"
       >
         <button
-          class="sc-gsTCUz leZqM"
-          scale="md"
+          class="sc-gsTCUz ihLwNu"
+          type="button"
         >
           Item 1
         </button>
         <button
-          class="sc-gsTCUz hQuulj sc-dlfnbm iHweuo"
-          scale="md"
+          class="sc-gsTCUz bdckoq sc-dlfnbm cPEMfq"
+          type="button"
         >
           Item 2
         </button>
